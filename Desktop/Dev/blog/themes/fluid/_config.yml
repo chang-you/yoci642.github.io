@@ -838,6 +838,7 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/yoci642/yoci642.github.io.git", tip: "GitHub" }
     - { class: "iconfont icon-douban-fill", link: "https://www.douban.com/people/yoci642/", tip: "豆瓣" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-linkedin-fill", link: "https://www.linkedin.com/in/chang-y/", tip: "Linkedin" }
 
 
 #---------------------------
