@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-fluid",
   "version": "1.8.9",
-  "description": "An elegant Material-Design theme for Hexo.",
+  "description": "Consumer To Survive, Create To Thrive..",
   "main": "gulpfile.js",
   "scripts": {
     "lint": "gulp"

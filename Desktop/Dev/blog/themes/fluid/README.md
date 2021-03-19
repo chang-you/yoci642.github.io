@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">一款 Material Design 风格的主题</p>
-<p align="center">An elegant Material-Design theme for Hexo</p>
+<p align="center">Consumer To Survive, Create To Thrive.</p>
 
 ![ScreenShot](https://cdn.jsdelivr.net/gh/fluid-dev/static@master/hexo-theme-fluid/screenshots/index.png)
 
@@ -67,9 +67,9 @@ theme: fluid  # 指定主题
 language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
 ```
 
-#### 4. 创建「关于页」
+#### 4. 创建「About页」
 
-首次使用主题的「关于页」需要手动创建：
+首次使用主题的「About页」需要手动创建：
 
 ```bash
 hexo new page about
@@ -86,7 +86,7 @@ date: 2020-02-23 19:20:33
 layout: about
 ---
 
-这里写关于页的正文，支持 Markdown, HTML
+这里写About页的正文，支持 Markdown, HTML
 ```
 
 ## 更新主题

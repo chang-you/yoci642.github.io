@@ -16,7 +16,7 @@
 # Global
 #---------------------------
 
-# 用于浏览器标签的图标
+# 用于浏览器Tags的图标
 # Icon for browser tab
 favicon: /img/favicon.png
 
@@ -24,7 +24,7 @@ favicon: /img/favicon.png
 # Icon for Apple touch
 apple_touch_icon: /img/favicon.png
 
-# 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
+# 浏览器Tags页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
 tab_title_separator: " - "
 
@@ -291,7 +291,7 @@ version:
 navbar:
   # 导航栏左侧的标题，为空则按 hexo config 中 `title` 显示
   # The title on the left side of the navigation bar. If empty, it is based on `title` in hexo config
-  blog_title: "Fluid"
+  blog_title: "Gloria's Coding Journey🎄"
 
   # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
   # Navigation bar frosted glass special animation. It is an experimental feature
@@ -413,11 +413,11 @@ footer:
 
 
 #---------------------------
-# 首页
+# HomePage
 # Home Page
 #---------------------------
 index:
-  # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
+  # HomePage Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   banner_img: /img/default.png
 
@@ -431,16 +431,16 @@ index:
   # Available: 0 - 1.0
   banner_mask_alpha: 0.3
 
-  # 首页副标题的独立设置
+  # HomePage副标题的独立设置
   # Independent config of home page subtitle
   slogan:
     enable: true
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "An elegant Material-Design theme for Hexo"
+    text: "Consumer To Survive, Create To Thrive."
 
-    # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
+    # 通过 API 接口作为HomePage副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
     api:
       enable: false
@@ -467,19 +467,19 @@ index:
   auto_excerpt:
     enable: true
 
-  # 打开文章的标签方式
+  # 打开文章的Tags方式
   # The browser tag to open the post
   # Available: _blank | _self
   post_url_target: _self
 
-  # 是否显示文章信息（时间、分类、标签）
+  # 是否显示文章信息（时间、Categories、Tags）
   # Meta information of post
   post_meta:
     date: true
     category: true
     tag: true
 
-  # 文章通过 sticky 排序后，在首页文章标题前显示图标
+  # 文章通过 sticky 排序后，在HomePage文章标题前显示图标
   # If the posts are sorted by `sticky`, an icon is displayed in front of the post title
   post_sticky:
     enable: true
@@ -495,7 +495,7 @@ post:
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
-  # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
+  # 文章在HomePage的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
   default_index_img:
 
@@ -761,7 +761,7 @@ twikoo:
   path: window.location.pathname
 
 #---------------------------
-# 归档页
+# Archives页
 # Archive Page
 #---------------------------
 archive:
@@ -772,7 +772,7 @@ archive:
 
 
 #---------------------------
-# 分类页
+# Categories页
 # Category Page
 #---------------------------
 category:
@@ -782,12 +782,12 @@ category:
   banner_mask_alpha: 0.3
   subtitle:
 
-  # 分类的排序字段，前面带减号是倒序，不带减号是正序
+  # Categories的排序字段，前面带减号是倒序，不带减号是正序
   # Sort field for categories, with a minus sign is reverse order
   # Options: length | name
   order_by: "-length"
 
-  # 层级的折叠深度，0 是全部折叠，大于 0 后如果存在子分类则默认展开
+  # 层级的折叠深度，0 是全部折叠，大于 0 后如果存在子Categories则默认展开
   # Collapse depth. If 0, all posts collapsed. If greater than 0, it will be expanded by default if there are subcategories
   collapse_depth: 0
 
@@ -796,13 +796,13 @@ category:
   # Options: date | title | or other field of front-matter
   post_order_by: "-date"
 
-  # 单个分类中折叠展示文章数的最大值，超过限制会显示 More，0 则不限制
+  # 单个Categories中折叠展示文章数的最大值，超过限制会显示 More，0 则不限制
   # The maximum number of posts in a single category. If the limit is exceeded, it will be displayed More. If 0 no limit
   post_limit: 10
 
 
 #---------------------------
-# 标签页
+# Tags页
 # Tag Page
 #---------------------------
 tag:
@@ -820,7 +820,7 @@ tag:
 
 
 #---------------------------
-# 关于页
+# About页
 # About Page
 #---------------------------
 about:
@@ -830,13 +830,13 @@ about:
   banner_mask_alpha: 0.3
   subtitle:
   avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  name: "Chang You"
+  intro: "A Corgeek Newbie"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/yoci642/yoci642.github.io.git", tip: "GitHub" }
+    - { class: "iconfont icon-douban-fill", link: "https://www.douban.com/people/yoci642/", tip: "豆瓣" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
 
 

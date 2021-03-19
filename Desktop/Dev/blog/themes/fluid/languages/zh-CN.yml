@@ -5,7 +5,7 @@ search:
     success: v
     error: x
 
-postTotal: 共计 %d 篇文章
+postTotal: This blog has %d articles in total.
 
 paginator:
   pre: 上一页
@@ -17,23 +17,23 @@ post:
   next: 下一篇
 
 home:
-  title: 首页
+  title: HomePage
 
 archive:
-  title: 归档
-  subtitle: 归档
+  title: Archives
+  subtitle: Archives
 
 tag:
-  title: 标签
-  subtitle: 标签
+  title: Tags
+  subtitle: Tags
 
 category:
-  title: 分类
-  subtitle: 分类
+  title: Categories
+  subtitle: Categories
 
 about:
-  title: 关于
-  subtitle: 关于
+  title: About
+  subtitle: About
 
 page404:
   title: 页面走丢啦~
